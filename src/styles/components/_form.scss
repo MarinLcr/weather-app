@@ -1,0 +1,29 @@
+.form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  transition: 1s;
+  .form-input {
+    width: 300px;
+    padding: 15px 20px 15px 45px;
+    border-radius: 30px;
+  }
+  .form-input.true {
+    background-color: rgba(14, 2, 54, 0.8);
+    color: white;
+  }
+  .form-input.true::placeholder {
+    color: white;
+  }
+}
+
+.form.top {
+  top: 50px;
+}
+
+.form.middle {
+  top: 50%;
+}

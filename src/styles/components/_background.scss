@@ -1,0 +1,26 @@
+.background {
+  position: absolute;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
+  z-index: -1;
+}
+
+.background-1 {
+  background-image: url("../../assets/img/landscape-1.png");
+}
+
+.background-2 {
+  background-image: url("../../assets/img/landscape-2.png");
+}
+
+.background-3 {
+  background-image: url("../../assets/img/landscape-3.png");
+}
+
+.background-4 {
+  background-image: url("../../assets/img/landscape-4.png");
+}

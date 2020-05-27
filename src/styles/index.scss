@@ -1,0 +1,11 @@
+@import "~bootstrap/scss/bootstrap";
+
+/** import base **/
+@import "base/base";
+
+/** import components **/
+@import "components/header";
+@import "components/form";
+@import "components/weather";
+@import "components/error";
+@import "components/background";
